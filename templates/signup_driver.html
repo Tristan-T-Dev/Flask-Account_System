@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up Driver</title>
+    <link rel="stylesheet" href="/css/style_driver.css">
+</head>
+<body>
+    <nav>
+      <img src="/img/DASH_20250113_234200_0000 2.png" alt="dashrenters">
+    </nav>
+
+    <form class="contact-box" name="Feedback" action="" method="POST">
+    <div class="form-container">
+        <div class="left">
+            <div class="container">
+                <div class="form-box">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" type="text" placeholder="Enter your first name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input id="last-name" type="text" placeholder="Enter your last name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="birthday">Birthday</label>
+                            <input id="birthday" type="text" placeholder="Enter your birthday">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <input id="gender" type="text" placeholder="Enter your gender">
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="address">Address</label>
+                        <input id="address" type="text" placeholder="Enter your address">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="phone">Phone Number</label>
+                        <div class="phone-group">
+                            <select id="phone">
+                                <option>🇵🇭</option>
+                            </select>
+                            <input type="text" placeholder="Enter your number">
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="password">Password</label>
+                        <input id="password" type="password" placeholder="Enter your password">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="/img/profile icon.jpg" alt="profile icon" id="profile_pic">
+            <div class="container2">
+                <label class="btn" for="license" id="license_btn">
+                    <p>Upload your license</p>
+                    <span class="checkmark">✔</span>
+                  <input type="file" id="license" class="upload" accept="image/jpeg, image/png, image/jpg"><br>
+                </label>
+                <label class="btn" for="profile" id="profile-btn">
+                    <p>Set Up your Profile</p>
+                    <span class="checkmark">✔</span>
+                    <input type="file" id="profile" class="upload" accept="image/jpeg, image/png, image/jpg"><br>
+                </label>
+            </div>
+            <p class="context">Ready to hit the road and discover your next adventure with Dash. We’re here to provide you with a seamless car rental experience. Let’s get started on your journey.</p>
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I have read the information above and understand the reasons why my information must be collected and the purposes for which my information may be used or disclosed.</label>
+            </div>
+            <button class="submit-btn">Sign up as Driver</button>
+            <p>Have an Account Already? <a href="/">Sign In</a></p>
+        </div>
+    </div>
+</form>
+    <script src="/js/app.js"></script>
+</body>
+</html>
